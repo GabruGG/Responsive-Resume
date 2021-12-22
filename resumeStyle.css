@@ -10,11 +10,11 @@ body{
     margin: 20px auto;
 }
 .left-section {
-    grid-column:span;
+    grid-column:span 1;
     background-color: #e7c158;
 }
 .right-section{
-    grid-column: span;
+    grid-column: span 1/span 2;
     background-color: #8c8d9c;
 }
 .left-content{
@@ -70,12 +70,57 @@ body{
     height: 4px;
     background-color: black;
 }
+.right-main-content{
+    padding: 2rem 3rem;
+    
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
 @media (max-width:673px) {
     .main-content{
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
